@@ -1,0 +1,13 @@
+.cart-div{
+    padding-top: 5rem;
+}
+.incrementItem{
+    cursor: pointer;
+}
+.itemCount{
+    display: inline-block;
+    width: 4rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+}
