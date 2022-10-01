@@ -1,4 +1,10 @@
-.productInfo{
+.productInfo {
     height: 1000px;
-   padding-top: 10rem;
-}
+    padding-top: 10rem;
+  }
+  
+  .quantityCheck {
+    display: flex;
+    justify-content: space-around;
+  }
+  

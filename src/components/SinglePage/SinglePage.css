@@ -1,54 +1,59 @@
 .header {
-    display: block;
-    text-align: center;
-    font-size: 30px;
-    margin: 10px 0;
-  }
-  
-  .products {
-    margin-top: 5rem;
-    width: 25%;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-  }
-  
-  .productDesc {
-    display: flex;
-    justify-content:space-between;
-    margin: 10px;
-    
-  }
-  
-  .add {
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 5px;
-  }
-  
-  .remove {
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: grey;
-    color: white;
-  }
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
 
-   .img{
-    width: 100%;
-    height: 280px;
-  }
-  .rating-count{
-    display: none;
-  }
-  .rating-user:hover + .rating-count{
-    cursor: pointer;
-    margin: 5px 5px;
-    padding: 5px 5px;
-    display: inline;
-    transition:5000ms;
-    box-shadow: 2px 2px 5px 2px  red;
-    
-  }
+.products {
+  margin-top: 5rem;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.productDesc {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.add {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.remove {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: grey;
+  color: white;
+}
+
+.img {
+  width: 100%;
+  height: 280px;
+}
+
+.rating-count {
+  display: none;
+}
+
+.quantityCheck {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-user:hover + .rating-count {
+  cursor: pointer;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  display: inline;
+  transition: 5000ms;
+  box-shadow: 2px 2px 5px 2px red;
+}
